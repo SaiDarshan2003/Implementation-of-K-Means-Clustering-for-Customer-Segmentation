@@ -1,24 +1,19 @@
 # Implementation of K-Means Clustering for Customer Segmentation
-
 ## AIM:
 To write a program to implement the K Means Clustering for Customer Segmentation.
-
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
-
 ## Algorithm
 1. Import the necessary packages.
 2. Read the given csv file and display the few contents of the data.
 3. Import KMeans and use for loop to calculate the within cluster sum of squares the data.
 4. Plot the wcss for each iteration, also known as the elbow method plot.
 5. Predict the clusters and plot them.
-
 ## Program:
 ```
 Developed by: Sai Darshan G
 RegisterNumber: 212221240047
-#import packages
 import pandas as pd
 import matplotlib.pyplot as plt
 df=pd.read_csv("Mall_Customers.csv")
@@ -52,14 +47,11 @@ plt.legend()
 plt.title("Customer Segments")
 plt.show()
 ```
-
 ## Output:
 ![K Means Clustering for Customer Segmentation](1.png)
 ![K Means Clustering for Customer Segmentation](2.png)
 ![K Means Clustering for Customer Segmentation](3.png)
 ![K Means Clustering for Customer Segmentation](4.png)
 ![K Means Clustering for Customer Segmentation](5.png)
-
-
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
